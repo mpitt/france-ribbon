@@ -1,0 +1,16 @@
+/* Copyright 2015 Michele Pittoni <michele@pittoni.org>
+ * You are free to use this code for all purposes.
+ * No liability accepted.
+ */
+
+#ribbon {
+  width: 200px;
+  height: 40px;
+  transform-origin: left bottom;
+  transform: rotate(-45deg);
+  background: linear-gradient(to top, black, black) no-repeat bottom/100% 50%,
+              linear-gradient(to right, blue, blue 33%, white 33%, white 66%, red 66%, red) no-repeat;
+  position: fixed;
+  top: 100px;
+  left: 0;
+}
